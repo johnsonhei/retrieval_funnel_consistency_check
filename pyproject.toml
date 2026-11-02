@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "johnsonhei-redteam_jd406"
+name = "johnsonhei-retrieval_funnel_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测红队与内容安全工程师·检索召回的漏斗分析相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://johnsonhei.github.io"
-Repository = "https://github.com/johnsonhei/redteam_jd406"
-Issues = "https://github.com/johnsonhei/redteam_jd406/issues"
+Repository = "https://github.com/johnsonhei/retrieval_funnel_consistency_check"
+Issues = "https://github.com/johnsonhei/retrieval_funnel_consistency_check/issues"
 
 [project.scripts]
-redteam_jd406 = "redteam_jd406:main"
+retrieval_funnel_consistency_check = "retrieval_funnel_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["redteam_jd406"]
+py-modules = ["retrieval_funnel_consistency_check"]
